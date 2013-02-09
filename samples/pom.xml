@@ -51,6 +51,7 @@
 	</repositories>
 -->
 	<build>
+		<!-- the src dir is in a non-standard Maven location, but the standard Android location -->
 		<sourceDirectory>src</sourceDirectory>
 		<finalName>${apk.prefix}-${project.artifactId}-${project.version}-unaligned</finalName>
 

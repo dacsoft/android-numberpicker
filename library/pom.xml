@@ -46,7 +46,9 @@
 	</dependencies>
 
 	<build>
+		<!-- the src dir is in a non-standard Maven location, but the standard Android location -->
 		<sourceDirectory>src</sourceDirectory>
+		<!-- ditto for /test -->
 		<testSourceDirectory>test</testSourceDirectory>
 
 		<plugins>
