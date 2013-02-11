@@ -20,12 +20,14 @@ Add this to your project POM:
 
 
     <dependencies>
+      ...
       <dependency>
         <groupId>net.simonvt</groupId>
         <artifactId>android-numberpicker-library</artifactId>
         <version>1.0.0</version>
         <type>apklib</type>
       </dependency>
+      ...
     </dependencies>
 
 
