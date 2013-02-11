@@ -15,7 +15,7 @@ Build the library
  $ mvn clean install
 
 Add this to your project POM:
-
+<pre>
 <dependencies>
   ...
 	<dependency>
@@ -26,7 +26,7 @@ Add this to your project POM:
   </dependency>
   ...
 </dependencies>
-
+</pre>
 Then build your project. Bam!
 
 Hope to have this in the original project someday. 
