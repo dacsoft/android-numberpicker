@@ -4,29 +4,31 @@ Probably has to be built against API level 15
   
 To use this library, it's required that 4 attributes are added to your theme. Check the sample app on how this is done.
 
-FORKER'S NOTE
+### FORKER'S NOTE ###
 
-This has been modified to build with Maven.
+This apklib project has been modified to build with Maven.
 
 Clone the project and checkout the mavenize branch:
- $ git checkout mavenize
+
+    $ git checkout mavenize
  
 Build the library
- $ mvn clean install
+
+    $ mvn clean install
 
 Add this to your project POM:
-<pre>
-<dependencies>
-  ...
-	<dependency>
-    	<groupId>net.simonvt</groupId>
-    	<artifactId>android-numberpicker-library</artifactId>
-    	<version>1.0.0</version>
-			<type>apklib</type>
-  </dependency>
-  ...
-</dependencies>
-</pre>
+
+
+    <dependencies>
+      <dependency>
+        <groupId>net.simonvt</groupId>
+        <artifactId>android-numberpicker-library</artifactId>
+        <version>1.0.0</version>
+        <type>apklib</type>
+      </dependency>
+    </dependencies>
+
+
 Then build your project. Bam!
 
 Hope to have this in the original project someday. 
