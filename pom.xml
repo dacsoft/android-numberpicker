@@ -4,9 +4,9 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<name>Android Numberpicker (Parent)</name>
-	<groupId>net.simonvt</groupId>
+	<groupId>com.dacsoft</groupId>
 	<artifactId>android-numberpicker-parent</artifactId>
-	<version>1.0.0</version>
+	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	
 	<parent>
@@ -16,7 +16,7 @@
 	</parent>
 
 	<description>Android library for backporting a number picker to 2.x using the backported sources of Ice Cream Sandwich.</description>
-	<url>https://github.com/SimonVT/android-numberpicker</url>
+	<url>https://github.com/dacsoft/android-numberpicker</url>
 	<inceptionYear>2011????</inceptionYear>
 
 	<modules>
@@ -25,9 +25,9 @@
 	</modules>
 
 	<scm>
-		<url>https://github.com/SimonVT/android-numberpicker</url>
-		<connection>scm:git://github.com/SimonVT/android-numberpicker.git</connection>
-		<developerConnection>scm:git:git@github.com:SimonVT/android-numberpicker.git</developerConnection>
+		<url>https://github.com/dacsoft/android-numberpicker</url>
+		<connection>scm:git://github.com/dacsoft/android-numberpicker.git</connection>
+		<developerConnection>scm:git:git@github.com:dacsoft/android-numberpicker.git</developerConnection>
 	</scm>
 
 <!--
@@ -59,7 +59,7 @@
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/SimonVT/android-numberpicker/issues</url>
+		<url>https://github.com/dacsoft/android-numberpicker/issues</url>
 	</issueManagement>
 
 	<properties>
@@ -77,8 +77,8 @@
 		<robolectric.version>1.1</robolectric.version>
 		<junit.version>4.10</junit.version>
 
-		<github.downloads.repositoryOwner>[JakeWharton]</github.downloads.repositoryOwner>
-		<github.downloads.repositoryName>[ActionBarSherlock]</github.downloads.repositoryName>
+		<github.downloads.repositoryOwner>[DavidChwalisz]</github.downloads.repositoryOwner>
+		<github.downloads.repositoryName>[android-numberpicker]</github.downloads.repositoryName>
 	</properties>
 
 	<dependencyManagement>
@@ -171,9 +171,9 @@
 					<version>1.2</version>
 					<configuration>
 						<archive>${project.build.directory}/${apk.prefix}-${project.artifactId}-${project.version}.apk</archive>
-						<alias>ActionBarSherlock</alias>
-						<keypass>ActionBarSherlock</keypass>
-						<storepass>ActionBarSherlock</storepass>
+						<alias>android-numberpicker</alias>
+						<keypass>android-numberpicker</keypass>
+						<storepass>android-numberpicker</storepass>
 						<!-- Is always run from samples/xxx/ directory. -->
 						<keystore>../../debug.keystore</keystore>
 					</configuration>
