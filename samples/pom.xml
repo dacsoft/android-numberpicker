@@ -3,15 +3,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.dacsoft</groupId>
 	<artifactId>android-numberpicker-sample</artifactId>
 	<name>Android Numberpicker (Sample App)</name>
 	<packaging>apk</packaging>
 
 	<parent>
-		<groupId>com.dacsoft</groupId>
-		<artifactId>android-numberpicker-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
+  	<groupId>com.dacsoft</groupId>
+	  <artifactId>android-numberpicker-parent</artifactId>
+		<version>1.0.0</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -25,17 +24,10 @@
 		<dependency>
     	<groupId>com.dacsoft</groupId>
     	<artifactId>android-numberpicker-library</artifactId>
-    	<version>1.0-SNAPSHOT</version>
+		  <version>${project.version}</version>
 			<type>apklib</type>
 		</dependency>
 
-		<!-- https://github.com/rtyley/roboguice-sherlock -->
-<!--		<dependency>
-			<groupId>com.github.rtyley</groupId>
-			<artifactId>roboguice-sherlock</artifactId>
-			<version>1.4</version>
-		</dependency>
-		-->
 	</dependencies>
 
 <!--
